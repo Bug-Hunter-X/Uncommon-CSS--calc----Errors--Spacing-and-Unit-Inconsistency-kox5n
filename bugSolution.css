@@ -1,0 +1,12 @@
+To fix the spacing issue, remove any unnecessary spaces around the operators within the `calc()` function.  Ensure that units are consistent within the calculation, or use a more robust method like JavaScript if necessary. For nested expressions, use parentheses to clarify the order of operations.  Here's an example:
+
+/* Incorrect */
+width: calc( 100% - 20px );
+height: calc(50% + 10em);
+
+/* Correct */
+width: calc(100% - 20px);
+height: calc(50% + 10em); /* Or handle unit conversion appropriately */
+
+/* Nested calc() example with correct parenthesis */
+width: calc( (100% - 20px) / 2 );
