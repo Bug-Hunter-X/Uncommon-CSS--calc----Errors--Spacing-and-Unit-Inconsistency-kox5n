@@ -1,0 +1,1 @@
+This repository demonstrates two uncommon errors related to the CSS `calc()` function: incorrect spacing and unit inconsistencies. The `bug.css` file showcases code with these errors, while `bugSolution.css` provides corrected versions.  The `calc()` function is powerful, but requires careful attention to detail.
